@@ -1,0 +1,106 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', 'Arial';
+    font-weight: 600;
+    background-color: black;
+}
+
+.container {
+    margin: 2rem 0;
+    width: 22rem;
+    height: 33rem;
+    background: #e8e8d8;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.screen_wrap {
+    margin: 2rem 0 1rem 0;
+    width: 18rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    background: #e8e8e8;
+    box-shadow: 6px 6px 12px #b8e9e6, -6px -6px 12px #fffefe;
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+
+.screen {
+    padding-right: 7px;
+    width: 100%;
+    height: 70%;
+    color: #0b0b0b;
+    font-size: 1.9rem;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.history {
+    padding: 4px 7px 0 0;
+    width: 100%;
+    height: 30%;
+    font-size: 1rem;
+    color: #2a63a3;
+    box-sizing: border-box;
+    text-align: right;
+    opacity: 0.5;
+}
+
+.btn_wrap {
+    width: 20rem;
+    height: 22rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    all: unset;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+    color: #303841;
+    border-radius: 50%;
+    background: 5px 5px 10px #c2c21b, -5px -5px 10px #4a1515;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.btn:nth-child(19) {
+    width: 8rem;
+    border-radius: 4rem;
+}
+
+.btn:nth-child(3),
+.btn:nth-child(4),
+.btn:nth-child(8),
+.btn:nth-child(12),
+.btn:nth-child(16) {
+    background: #c9b6dd;
+}
+
+.btn:nth-child(1),
+.btn:nth-child(2),
+.btn:nth-child(19),
+.btn:nth-child(17) {
+    background: #62a0b9;
+}
+
+.btn:active {
+    background-color: #a94141; /* Add slight change for active press */
+}
