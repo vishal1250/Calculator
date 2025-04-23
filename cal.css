@@ -1,7 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
-    margin: 0;
+    margin-top: 5px;
     padding: 0;
     background: #e8e8e8;
     display: flex;
@@ -14,26 +15,31 @@ body {
 
 .container {
     margin: 2rem 0;
-    width: 22rem;
-    height: 33rem;
-    background: #e8e8d8;
+    width: 25rem;
+    height: 37rem;
+    background-color: azure;
     border-radius: 1rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 9px 6px 12px , -9px -6px 12px;
     justify-content: center;
 }
 
 .screen_wrap {
     margin: 2rem 0 1rem 0;
-    width: 18rem;
-    height: 5rem;
+    width: 20rem;
+    height: 5.7rem;
     border-radius: 0.5rem;
-    background: #e8e8e8;
-    box-shadow: 6px 6px 12px #b8e9e6, -6px -6px 12px #fffefe;
+    background-color:antiquewhite;
+    /* box-shadow: 6px 6px 12px #65bbb5, -6px -6px 12px #4793ca; */
     display: flex;
     justify-content:flex-end;
     align-items:flex-end;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: right;
+    direction: ltr;
 }
 
 .screen {
@@ -44,7 +50,8 @@ body {
     font-size: 1.9rem;
     box-sizing: border-box;
     text-align: right;
-}
+    font-family: 'Poppins', 'Arial';
+} 
 
 .history {
     padding: 4px 7px 0 0;
@@ -72,13 +79,13 @@ body {
     width: 3.5rem;
     height: 3.5rem;
     font-size: 1.3rem;
-    color: #303841;
+    color: #070f0f;
     border-radius: 50%;
     background: 5px 5px 10px #c2c21b, -5px -5px 10px #4a1515;
     display: grid;
     place-content: center;
     cursor: pointer;
-    transition: background 0.2s, transform 0.2s;
+    transition: 0.2s, transform 0.2s;
 }
 
 .btn:nth-child(19) {
@@ -91,16 +98,16 @@ body {
 .btn:nth-child(8),
 .btn:nth-child(12),
 .btn:nth-child(16) {
-    background: #c9b6dd;
+    background: #a291b4;
 }
 
 .btn:nth-child(1),
 .btn:nth-child(2),
 .btn:nth-child(19),
 .btn:nth-child(17) {
-    background: #62a0b9;
+    background: #6ca7bf;
 }
 
 .btn:active {
-    background-color: #a94141; /* Add slight change for active press */
+    background-color: #c4bfbf; 
 }
