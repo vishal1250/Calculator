@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     
     function highlightButton(button) {
-        button.style.backgroundColor = "#f0f0f0"; 
+        // button.style.backgroundColor = "#f0f0f0"; // this one for check which button youu click
         button.style.transform = "scale(1.1)";  
     }
 
@@ -103,5 +103,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function removeHighlight(button) {
         button.style.backgroundColor = " ";  
         button.style.transform = " ";  
+    }
+
+     function appendToScreen(value) {
+        screen.textContent += value;
+        screen.scrollLeft = screen.scrollWidth;
     }
 });
