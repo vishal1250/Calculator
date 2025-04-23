@@ -32,7 +32,7 @@ body {
     height: 5.7rem;
     border-radius: 0.5rem;
     background-color:antiquewhite;
-    /* box-shadow: 6px 6px 12px #65bbb5, -6px -6px 12px #4793ca; */
+    /* box-shadow: 6px 6px 12px #65bbb5, -6px -6px 12px #4793ca; */ /*=> screen border with style color to use this*/
     display: flex;
     justify-content:flex-end;
     align-items:flex-end;
